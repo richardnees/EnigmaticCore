@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		795345A11FD997C300875AD9 /* EnigmaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AA69D31FD85264002B3DA9 /* EnigmaError.swift */; };
+		7959F6EB1FDBA18100A83EA8 /* KeychainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959F6EA1FDBA18100A83EA8 /* KeychainError.swift */; };
+		799563D91FDA30730060E474 /* Enigma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799563D81FDA30730060E474 /* Enigma.swift */; };
+		799563DD1FDA31320060E474 /* Enigma.Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799563DC1FDA31320060E474 /* Enigma.Transform.swift */; };
+		799DD7831FDE982300CE4A2A /* EnigmaDataTransformOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799DD7821FDE982300CE4A2A /* EnigmaDataTransformOperation.swift */; };
+		799DD7851FDE99DC00CE4A2A /* EnigmaTransformOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799DD7841FDE99DC00CE4A2A /* EnigmaTransformOperation.swift */; };
+		79AC49581FD83B7900ABDFB7 /* EnigmaticCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AC494E1FD83B7900ABDFB7 /* EnigmaticCore.framework */; };
+		79AC495D1FD83B7900ABDFB7 /* EnigmaticCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AC495C1FD83B7900ABDFB7 /* EnigmaticCoreTests.swift */; };
+		79AC495F1FD83B7900ABDFB7 /* EnigmaticCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 79AC49511FD83B7900ABDFB7 /* EnigmaticCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79CFF6231FDD47FA00E1F8F8 /* Enigma.Salt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CFF6221FDD47FA00E1F8F8 /* Enigma.Salt.swift */; };
+		79CFF6251FDD497000E1F8F8 /* Enigma.InitializationVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CFF6241FDD497000E1F8F8 /* Enigma.InitializationVector.swift */; };
+		79D9F89B1FDD6DB600B7024D /* Enigma.ConfigurationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D9F89A1FDD6DB600B7024D /* Enigma.ConfigurationKey.swift */; };
+		79E3C9951FDEA18200DF5091 /* EnigmaKeychainPasswordOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3C9941FDEA18200DF5091 /* EnigmaKeychainPasswordOperation.swift */; };
+		79E3C9971FDEA44E00DF5091 /* EnigmaKeychainMatchPasswordOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3C9961FDEA44E00DF5091 /* EnigmaKeychainMatchPasswordOperation.swift */; };
+		79F846F71FDEABE80012C2DA /* EnigmaKeychainSavePasswordOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F846F61FDEABE80012C2DA /* EnigmaKeychainSavePasswordOperation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79AC49591FD83B7900ABDFB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79AC49451FD83B7900ABDFB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79AC494D1FD83B7900ABDFB7;
+			remoteInfo = Enigma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79AA6A491FD8AF44002B3DA9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 12;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7959F6EA1FDBA18100A83EA8 /* KeychainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainError.swift; sourceTree = "<group>"; };
+		799563D81FDA30730060E474 /* Enigma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enigma.swift; sourceTree = "<group>"; };
+		799563DC1FDA31320060E474 /* Enigma.Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enigma.Transform.swift; sourceTree = "<group>"; };
+		799DD7821FDE982300CE4A2A /* EnigmaDataTransformOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaDataTransformOperation.swift; sourceTree = "<group>"; };
+		799DD7841FDE99DC00CE4A2A /* EnigmaTransformOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaTransformOperation.swift; sourceTree = "<group>"; };
+		79AA69D31FD85264002B3DA9 /* EnigmaError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaError.swift; sourceTree = "<group>"; };
+		79AC494E1FD83B7900ABDFB7 /* EnigmaticCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EnigmaticCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AC49511FD83B7900ABDFB7 /* EnigmaticCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnigmaticCore.h; sourceTree = "<group>"; };
+		79AC49521FD83B7900ABDFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79AC49571FD83B7900ABDFB7 /* EnigmaticCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnigmaticCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AC495C1FD83B7900ABDFB7 /* EnigmaticCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaticCoreTests.swift; sourceTree = "<group>"; };
+		79AC495E1FD83B7900ABDFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79AC49691FD83BEB00ABDFB7 /* Debug-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Debug-Framework.xcconfig"; sourceTree = "<group>"; };
+		79AC496A1FD83BEB00ABDFB7 /* Release-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Release-Framework.xcconfig"; sourceTree = "<group>"; };
+		79AC496C1FD83BEB00ABDFB7 /* EnigmaticCore.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = EnigmaticCore.xcconfig; sourceTree = "<group>"; };
+		79CFF6221FDD47FA00E1F8F8 /* Enigma.Salt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enigma.Salt.swift; sourceTree = "<group>"; };
+		79CFF6241FDD497000E1F8F8 /* Enigma.InitializationVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enigma.InitializationVector.swift; sourceTree = "<group>"; };
+		79D9F89A1FDD6DB600B7024D /* Enigma.ConfigurationKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enigma.ConfigurationKey.swift; sourceTree = "<group>"; };
+		79E3C9941FDEA18200DF5091 /* EnigmaKeychainPasswordOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaKeychainPasswordOperation.swift; sourceTree = "<group>"; };
+		79E3C9961FDEA44E00DF5091 /* EnigmaKeychainMatchPasswordOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaKeychainMatchPasswordOperation.swift; sourceTree = "<group>"; };
+		79F846F61FDEABE80012C2DA /* EnigmaKeychainSavePasswordOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaKeychainSavePasswordOperation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79AC494A1FD83B7900ABDFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AC49541FD83B7900ABDFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AC49581FD83B7900ABDFB7 /* EnigmaticCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		799DD7801FDE97DC00CE4A2A /* Enigma */ = {
+			isa = PBXGroup;
+			children = (
+				799563D81FDA30730060E474 /* Enigma.swift */,
+				799563DC1FDA31320060E474 /* Enigma.Transform.swift */,
+				79D9F89A1FDD6DB600B7024D /* Enigma.ConfigurationKey.swift */,
+				79CFF6241FDD497000E1F8F8 /* Enigma.InitializationVector.swift */,
+				79CFF6221FDD47FA00E1F8F8 /* Enigma.Salt.swift */,
+				79AA69D31FD85264002B3DA9 /* EnigmaError.swift */,
+				7959F6EA1FDBA18100A83EA8 /* KeychainError.swift */,
+			);
+			path = Enigma;
+			sourceTree = "<group>";
+		};
+		799DD7811FDE97F300CE4A2A /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				79E3C9931FDEA16C00DF5091 /* EnigmaKeychainOperation */,
+				79E3C9921FDEA16400DF5091 /* EnigmaTransformOperation */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		79AC49441FD83B7900ABDFB7 = {
+			isa = PBXGroup;
+			children = (
+				79AC49681FD83BEB00ABDFB7 /* Configuration */,
+				79AC49501FD83B7900ABDFB7 /* Source */,
+				79AC495B1FD83B7900ABDFB7 /* EnigmaticCoreTests */,
+				79AC494F1FD83B7900ABDFB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79AC494F1FD83B7900ABDFB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79AC494E1FD83B7900ABDFB7 /* EnigmaticCore.framework */,
+				79AC49571FD83B7900ABDFB7 /* EnigmaticCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79AC49501FD83B7900ABDFB7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				79AC49521FD83B7900ABDFB7 /* Info.plist */,
+				79AC49511FD83B7900ABDFB7 /* EnigmaticCore.h */,
+				799DD7801FDE97DC00CE4A2A /* Enigma */,
+				799DD7811FDE97F300CE4A2A /* Operations */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		79AC495B1FD83B7900ABDFB7 /* EnigmaticCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				79AC495C1FD83B7900ABDFB7 /* EnigmaticCoreTests.swift */,
+				79AC495E1FD83B7900ABDFB7 /* Info.plist */,
+			);
+			path = EnigmaticCoreTests;
+			sourceTree = "<group>";
+		};
+		79AC49681FD83BEB00ABDFB7 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				79AC49691FD83BEB00ABDFB7 /* Debug-Framework.xcconfig */,
+				79AC496A1FD83BEB00ABDFB7 /* Release-Framework.xcconfig */,
+				79AC496C1FD83BEB00ABDFB7 /* EnigmaticCore.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		79E3C9921FDEA16400DF5091 /* EnigmaTransformOperation */ = {
+			isa = PBXGroup;
+			children = (
+				799DD7841FDE99DC00CE4A2A /* EnigmaTransformOperation.swift */,
+				799DD7821FDE982300CE4A2A /* EnigmaDataTransformOperation.swift */,
+			);
+			path = EnigmaTransformOperation;
+			sourceTree = "<group>";
+		};
+		79E3C9931FDEA16C00DF5091 /* EnigmaKeychainOperation */ = {
+			isa = PBXGroup;
+			children = (
+				79E3C9941FDEA18200DF5091 /* EnigmaKeychainPasswordOperation.swift */,
+				79E3C9961FDEA44E00DF5091 /* EnigmaKeychainMatchPasswordOperation.swift */,
+				79F846F61FDEABE80012C2DA /* EnigmaKeychainSavePasswordOperation.swift */,
+			);
+			path = EnigmaKeychainOperation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		79AC494B1FD83B7900ABDFB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AC495F1FD83B7900ABDFB7 /* EnigmaticCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79AC494D1FD83B7900ABDFB7 /* EnigmaticCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AC49621FD83B7900ABDFB7 /* Build configuration list for PBXNativeTarget "EnigmaticCore" */;
+			buildPhases = (
+				79AC49491FD83B7900ABDFB7 /* Sources */,
+				79AC494A1FD83B7900ABDFB7 /* Frameworks */,
+				79AC494B1FD83B7900ABDFB7 /* Headers */,
+				79AC494C1FD83B7900ABDFB7 /* Resources */,
+				79AA6A491FD8AF44002B3DA9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnigmaticCore;
+			productName = Enigma;
+			productReference = 79AC494E1FD83B7900ABDFB7 /* EnigmaticCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79AC49561FD83B7900ABDFB7 /* EnigmaticCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AC49651FD83B7900ABDFB7 /* Build configuration list for PBXNativeTarget "EnigmaticCoreTests" */;
+			buildPhases = (
+				79AC49531FD83B7900ABDFB7 /* Sources */,
+				79AC49541FD83B7900ABDFB7 /* Frameworks */,
+				79AC49551FD83B7900ABDFB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79AC495A1FD83B7900ABDFB7 /* PBXTargetDependency */,
+			);
+			name = EnigmaticCoreTests;
+			productName = EnigmaTests;
+			productReference = 79AC49571FD83B7900ABDFB7 /* EnigmaticCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79AC49451FD83B7900ABDFB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Richard Nees";
+				TargetAttributes = {
+					79AC494D1FD83B7900ABDFB7 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Manual;
+					};
+					79AC49561FD83B7900ABDFB7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 79AC49481FD83B7900ABDFB7 /* Build configuration list for PBXProject "EnigmaticCore" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79AC49441FD83B7900ABDFB7;
+			productRefGroup = 79AC494F1FD83B7900ABDFB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79AC494D1FD83B7900ABDFB7 /* EnigmaticCore */,
+				79AC49561FD83B7900ABDFB7 /* EnigmaticCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79AC494C1FD83B7900ABDFB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AC49551FD83B7900ABDFB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79AC49491FD83B7900ABDFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D9F89B1FDD6DB600B7024D /* Enigma.ConfigurationKey.swift in Sources */,
+				7959F6EB1FDBA18100A83EA8 /* KeychainError.swift in Sources */,
+				799DD7851FDE99DC00CE4A2A /* EnigmaTransformOperation.swift in Sources */,
+				799563D91FDA30730060E474 /* Enigma.swift in Sources */,
+				799563DD1FDA31320060E474 /* Enigma.Transform.swift in Sources */,
+				79CFF6251FDD497000E1F8F8 /* Enigma.InitializationVector.swift in Sources */,
+				799DD7831FDE982300CE4A2A /* EnigmaDataTransformOperation.swift in Sources */,
+				79CFF6231FDD47FA00E1F8F8 /* Enigma.Salt.swift in Sources */,
+				795345A11FD997C300875AD9 /* EnigmaError.swift in Sources */,
+				79F846F71FDEABE80012C2DA /* EnigmaKeychainSavePasswordOperation.swift in Sources */,
+				79E3C9951FDEA18200DF5091 /* EnigmaKeychainPasswordOperation.swift in Sources */,
+				79E3C9971FDEA44E00DF5091 /* EnigmaKeychainMatchPasswordOperation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AC49531FD83B7900ABDFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AC495D1FD83B7900ABDFB7 /* EnigmaticCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79AC495A1FD83B7900ABDFB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79AC494D1FD83B7900ABDFB7 /* EnigmaticCore */;
+			targetProxy = 79AC49591FD83B7900ABDFB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79AC49601FD83B7900ABDFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AC49691FD83BEB00ABDFB7 /* Debug-Framework.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		79AC49611FD83B7900ABDFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AC496A1FD83BEB00ABDFB7 /* Release-Framework.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		79AC49631FD83B7900ABDFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AC496C1FD83BEB00ABDFB7 /* EnigmaticCore.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		79AC49641FD83B7900ABDFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AC496C1FD83BEB00ABDFB7 /* EnigmaticCore.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		79AC49661FD83B7900ABDFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EnigmaticCoreTests/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.richardnees.framework.EnigmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79AC49671FD83B7900ABDFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EnigmaticCoreTests/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.richardnees.framework.EnigmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79AC49481FD83B7900ABDFB7 /* Build configuration list for PBXProject "EnigmaticCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AC49601FD83B7900ABDFB7 /* Debug */,
+				79AC49611FD83B7900ABDFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79AC49621FD83B7900ABDFB7 /* Build configuration list for PBXNativeTarget "EnigmaticCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AC49631FD83B7900ABDFB7 /* Debug */,
+				79AC49641FD83B7900ABDFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79AC49651FD83B7900ABDFB7 /* Build configuration list for PBXNativeTarget "EnigmaticCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AC49661FD83B7900ABDFB7 /* Debug */,
+				79AC49671FD83B7900ABDFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79AC49451FD83B7900ABDFB7 /* Project object */;
+}
