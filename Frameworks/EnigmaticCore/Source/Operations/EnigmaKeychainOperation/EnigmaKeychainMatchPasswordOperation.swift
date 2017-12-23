@@ -7,10 +7,13 @@ public class EnigmaKeychainMatchPasswordOperation: EnigmaKeychainPasswordOperati
             error = EnigmaError.noData
             return
         }
-        
-        let account = String(data.hashValue)
-        
+
         var query = defaultQuery
+
+        if account == nil {
+            account = String(data.hashValue)
+        }
+
         query[kSecAttrAccount] = account
         query[kSecReturnData] = true
         

@@ -11,9 +11,11 @@ queue.qualityOfService = .background
 
 let keychainSaveOperation = EnigmaKeychainSavePasswordOperation()
 keychainSaveOperation.label = "com.richardnees.EnigmaPlayground"
-keychainSaveOperation.password = "password1"
+keychainSaveOperation.password = "password1234123123"
+keychainSaveOperation.account = "2CD4E918-BBEB-4BA9-B6D0-83E59B7EEC7B-14995-0001BA6DB922431E"
 keychainSaveOperation.data = data
 queue.addOperation(keychainSaveOperation)
 queue.waitUntilAllOperationsAreFinished()
 
 print("error:\n\(keychainSaveOperation.error)")
+

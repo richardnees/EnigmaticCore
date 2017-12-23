@@ -20,20 +20,34 @@ public class EnigmaKeychainSavePasswordOperation: EnigmaKeychainPasswordOperatio
             return
         }
 
-        let account = String(data.hashValue)
-        
         var query = defaultQuery
+
+        if account == nil {
+            account = String(data.hashValue)
+        }
         query[kSecAttrAccount] = account
-        query[kSecValueData] = passwordData
         
-        let status = SecItemAdd(query as CFDictionary, nil)
+        let attributes = [kSecValueData:passwordData]
         
-        guard
-            status == errSecSuccess ||
-            status == errSecUserCanceled
-            else {
-                error = KeychainError.unhandledError(status: status)
-                return
+        var status: OSStatus?
+        
+        status = SecItemUpdate(query as CFDictionary, attributes as CFDictionary)
+
+        if status == errSecItemNotFound {
+            query[kSecValueData] = passwordData
+            
+            var result: AnyObject?
+            status = SecItemAdd(query as CFDictionary, &result)
+            
+            guard
+                status == errSecSuccess ||
+                status == errSecUserCanceled
+                else {
+                    if let status = status {
+                        error = KeychainError.unhandledError(status: status)
+                    }
+                    return
+            }
         }
     }
 }
