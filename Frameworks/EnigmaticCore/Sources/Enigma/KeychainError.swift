@@ -30,7 +30,11 @@ extension KeychainError: LocalizedError {
         case .unexpectedPasswordData:
             return NSLocalizedString("Data returned from keychain is malformed.", comment: "Needs comment")
         case let .unhandledError(status):
+            #if os(OSX)
             return SecCopyErrorMessageString(status, nil) as String? ?? NSLocalizedString("Unknown Keychain error.", comment: "Needs comment")
+            #else
+                return NSLocalizedString(String(format: "Keychain error. %s", status), comment: "Needs comment")
+            #endif
         }
     }
 }

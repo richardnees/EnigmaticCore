@@ -1,6 +1,7 @@
 import Foundation
 
 public enum EnigmaError: Error {
+    case invalidConfiguration
     case noContent
     case noPassword
     case noData
@@ -23,6 +24,8 @@ extension EnigmaError: LocalizedError {
     
     public var errorDescription: String {
         switch self {
+        case .invalidConfiguration:
+            return NSLocalizedString("Invalid configuration.", comment: "Needs comment")
         case .noContent:
             return NSLocalizedString("No content to encrypt.", comment: "Needs comment")
         case .noPassword:
@@ -44,6 +47,8 @@ extension EnigmaError: LocalizedError {
     
     public var recoverySuggestion: String? {
         switch self {
+        case .invalidConfiguration:
+            return nil
         case .noContent:
             return NSLocalizedString("Provide content to encrypt.", comment: "Needs comment")
         case .noPassword:
@@ -71,6 +76,8 @@ extension EnigmaError: CustomNSError {
     
     public var errorCode: Int {
         switch self {
+        case .invalidConfiguration:
+            return 4000
         case .noContent:
             return 1000
         case .noPassword:
@@ -101,6 +108,8 @@ extension EnigmaError: CustomNSError {
         }
         
         switch self {
+        case .invalidConfiguration:
+            break
         case .noContent:
             break
         case .noPassword:

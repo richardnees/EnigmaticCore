@@ -1,3 +1,5 @@
+SWIFT_INCLUDE_PATHS = ${SRCROOT}/Sources/CCommonCrypto
+
 PRODUCT_BUNDLE_IDENTIFIER = com.richardnees.framework.EnigmaticCore
-PRODUCT_NAME = $(TARGET_NAME)
+PRODUCT_NAME = EnigmaticCore
 

@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "container:"
+      name = "Carthage">
+      <FileRef
+         location = "group:Cartfile">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Configuration"
       name = "Configuration">
       <FileRef
@@ -45,7 +52,10 @@
       location = "container:"
       name = "Playgrounds">
       <FileRef
-         location = "group:/Users/richard/Github/EnigmaticCore/Playgrounds/EnigmaticCore.playground">
+         location = "group:/Users/richard/Github/EnigmaticCore/Playgrounds/EnigmaticCore macOS.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Playgrounds/EnigmaticCore iOS.playground">
       </FileRef>
    </Group>
    <Group

@@ -1,5 +1,4 @@
-import Cocoa
-import Security
+import Foundation
 import EnigmaticCore
 
 let password = "test"

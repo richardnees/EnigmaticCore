@@ -16,9 +16,24 @@
 		79AC49581FD83B7900ABDFB7 /* EnigmaticCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AC494E1FD83B7900ABDFB7 /* EnigmaticCore.framework */; };
 		79AC495D1FD83B7900ABDFB7 /* EnigmaticCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AC495C1FD83B7900ABDFB7 /* EnigmaticCoreTests.swift */; };
 		79AC495F1FD83B7900ABDFB7 /* EnigmaticCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 79AC49511FD83B7900ABDFB7 /* EnigmaticCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79CFF6231FDD47FA00E1F8F8 /* Enigma.Salt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CFF6221FDD47FA00E1F8F8 /* Enigma.Salt.swift */; };
-		79CFF6251FDD497000E1F8F8 /* Enigma.InitializationVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CFF6241FDD497000E1F8F8 /* Enigma.InitializationVector.swift */; };
-		79D9F89B1FDD6DB600B7024D /* Enigma.ConfigurationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D9F89A1FDD6DB600B7024D /* Enigma.ConfigurationKey.swift */; };
+		79DBF2161FFD226A0002B1F3 /* Enigma.macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBF2151FFD226A0002B1F3 /* Enigma.macOS.swift */; };
+		79DBF21D1FFD23D80002B1F3 /* KeychainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959F6EA1FDBA18100A83EA8 /* KeychainError.swift */; };
+		79DBF21E1FFD23D80002B1F3 /* EnigmaTransformOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799DD7841FDE99DC00CE4A2A /* EnigmaTransformOperation.swift */; };
+		79DBF21F1FFD23D80002B1F3 /* Enigma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799563D81FDA30730060E474 /* Enigma.swift */; };
+		79DBF2201FFD23D80002B1F3 /* Enigma.Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799563DC1FDA31320060E474 /* Enigma.Transform.swift */; };
+		79DBF2221FFD23D80002B1F3 /* EnigmaDataTransformOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799DD7821FDE982300CE4A2A /* EnigmaDataTransformOperation.swift */; };
+		79DBF2241FFD23D80002B1F3 /* EnigmaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AA69D31FD85264002B3DA9 /* EnigmaError.swift */; };
+		79DBF2251FFD23D80002B1F3 /* EnigmaKeychainSavePasswordOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F846F61FDEABE80012C2DA /* EnigmaKeychainSavePasswordOperation.swift */; };
+		79DBF2261FFD23D80002B1F3 /* Enigma.iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBF2171FFD22800002B1F3 /* Enigma.iOS.swift */; };
+		79DBF2271FFD23D80002B1F3 /* EnigmaKeychainPasswordOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3C9941FDEA18200DF5091 /* EnigmaKeychainPasswordOperation.swift */; };
+		79DBF2281FFD23D80002B1F3 /* EnigmaKeychainMatchPasswordOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3C9961FDEA44E00DF5091 /* EnigmaKeychainMatchPasswordOperation.swift */; };
+		79DBF22B1FFD23D80002B1F3 /* EnigmaticCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 79AC49511FD83B7900ABDFB7 /* EnigmaticCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79DBF2381FFD46290002B1F3 /* Enigma.InitializationVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBF2351FFD46290002B1F3 /* Enigma.InitializationVector.swift */; };
+		79DBF2391FFD46290002B1F3 /* Enigma.InitializationVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBF2351FFD46290002B1F3 /* Enigma.InitializationVector.swift */; };
+		79DBF23A1FFD46290002B1F3 /* Enigma.Salt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBF2361FFD46290002B1F3 /* Enigma.Salt.swift */; };
+		79DBF23B1FFD46290002B1F3 /* Enigma.Salt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBF2361FFD46290002B1F3 /* Enigma.Salt.swift */; };
+		79DBF23C1FFD46290002B1F3 /* Enigma.ConfigurationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBF2371FFD46290002B1F3 /* Enigma.ConfigurationKey.swift */; };
+		79DBF23D1FFD46290002B1F3 /* Enigma.ConfigurationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBF2371FFD46290002B1F3 /* Enigma.ConfigurationKey.swift */; };
 		79E3C9951FDEA18200DF5091 /* EnigmaKeychainPasswordOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3C9941FDEA18200DF5091 /* EnigmaKeychainPasswordOperation.swift */; };
 		79E3C9971FDEA44E00DF5091 /* EnigmaKeychainMatchPasswordOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3C9961FDEA44E00DF5091 /* EnigmaKeychainMatchPasswordOperation.swift */; };
 		79F846F71FDEABE80012C2DA /* EnigmaKeychainSavePasswordOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F846F61FDEABE80012C2DA /* EnigmaKeychainSavePasswordOperation.swift */; };
@@ -44,6 +59,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		79DBF22D1FFD23D80002B1F3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 12;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +77,8 @@
 		799DD7821FDE982300CE4A2A /* EnigmaDataTransformOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaDataTransformOperation.swift; sourceTree = "<group>"; };
 		799DD7841FDE99DC00CE4A2A /* EnigmaTransformOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaTransformOperation.swift; sourceTree = "<group>"; };
 		79AA69D31FD85264002B3DA9 /* EnigmaError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaError.swift; sourceTree = "<group>"; };
+		79AC356B1FF7E31100229CB4 /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AC356C1FF7E32600229CB4 /* libcommonCrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcommonCrypto.tbd; path = usr/lib/system/libcommonCrypto.tbd; sourceTree = SDKROOT; };
 		79AC494E1FD83B7900ABDFB7 /* EnigmaticCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EnigmaticCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79AC49511FD83B7900ABDFB7 /* EnigmaticCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnigmaticCore.h; sourceTree = "<group>"; };
 		79AC49521FD83B7900ABDFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,9 +88,12 @@
 		79AC49691FD83BEB00ABDFB7 /* Debug-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Debug-Framework.xcconfig"; sourceTree = "<group>"; };
 		79AC496A1FD83BEB00ABDFB7 /* Release-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Release-Framework.xcconfig"; sourceTree = "<group>"; };
 		79AC496C1FD83BEB00ABDFB7 /* EnigmaticCore.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = EnigmaticCore.xcconfig; sourceTree = "<group>"; };
-		79CFF6221FDD47FA00E1F8F8 /* Enigma.Salt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enigma.Salt.swift; sourceTree = "<group>"; };
-		79CFF6241FDD497000E1F8F8 /* Enigma.InitializationVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enigma.InitializationVector.swift; sourceTree = "<group>"; };
-		79D9F89A1FDD6DB600B7024D /* Enigma.ConfigurationKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enigma.ConfigurationKey.swift; sourceTree = "<group>"; };
+		79DBF2151FFD226A0002B1F3 /* Enigma.macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enigma.macOS.swift; sourceTree = "<group>"; };
+		79DBF2171FFD22800002B1F3 /* Enigma.iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enigma.iOS.swift; sourceTree = "<group>"; };
+		79DBF2311FFD23D80002B1F3 /* EnigmaticCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EnigmaticCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DBF2351FFD46290002B1F3 /* Enigma.InitializationVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enigma.InitializationVector.swift; sourceTree = "<group>"; };
+		79DBF2361FFD46290002B1F3 /* Enigma.Salt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enigma.Salt.swift; sourceTree = "<group>"; };
+		79DBF2371FFD46290002B1F3 /* Enigma.ConfigurationKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enigma.ConfigurationKey.swift; sourceTree = "<group>"; };
 		79E3C9941FDEA18200DF5091 /* EnigmaKeychainPasswordOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaKeychainPasswordOperation.swift; sourceTree = "<group>"; };
 		79E3C9961FDEA44E00DF5091 /* EnigmaKeychainMatchPasswordOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaKeychainMatchPasswordOperation.swift; sourceTree = "<group>"; };
 		79F846F61FDEABE80012C2DA /* EnigmaKeychainSavePasswordOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaKeychainSavePasswordOperation.swift; sourceTree = "<group>"; };
@@ -86,6 +115,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		79DBF2291FFD23D80002B1F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,10 +129,12 @@
 			isa = PBXGroup;
 			children = (
 				799563D81FDA30730060E474 /* Enigma.swift */,
+				79DBF2331FFD45CB0002B1F3 /* macOS */,
+				79DBF2341FFD45D10002B1F3 /* iOS */,
 				799563DC1FDA31320060E474 /* Enigma.Transform.swift */,
-				79D9F89A1FDD6DB600B7024D /* Enigma.ConfigurationKey.swift */,
-				79CFF6241FDD497000E1F8F8 /* Enigma.InitializationVector.swift */,
-				79CFF6221FDD47FA00E1F8F8 /* Enigma.Salt.swift */,
+				79DBF2371FFD46290002B1F3 /* Enigma.ConfigurationKey.swift */,
+				79DBF2351FFD46290002B1F3 /* Enigma.InitializationVector.swift */,
+				79DBF2361FFD46290002B1F3 /* Enigma.Salt.swift */,
 				79AA69D31FD85264002B3DA9 /* EnigmaError.swift */,
 				7959F6EA1FDBA18100A83EA8 /* KeychainError.swift */,
 			);
@@ -112,13 +150,23 @@
 			path = Operations;
 			sourceTree = "<group>";
 		};
+		79AC35691FF7E31100229CB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79AC356C1FF7E32600229CB4 /* libcommonCrypto.tbd */,
+				79AC356B1FF7E31100229CB4 /* CommonCrypto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		79AC49441FD83B7900ABDFB7 = {
 			isa = PBXGroup;
 			children = (
 				79AC49681FD83BEB00ABDFB7 /* Configuration */,
-				79AC49501FD83B7900ABDFB7 /* Source */,
+				79AC49501FD83B7900ABDFB7 /* Sources */,
 				79AC495B1FD83B7900ABDFB7 /* EnigmaticCoreTests */,
 				79AC494F1FD83B7900ABDFB7 /* Products */,
+				79AC35691FF7E31100229CB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,11 +175,12 @@
 			children = (
 				79AC494E1FD83B7900ABDFB7 /* EnigmaticCore.framework */,
 				79AC49571FD83B7900ABDFB7 /* EnigmaticCoreTests.xctest */,
+				79DBF2311FFD23D80002B1F3 /* EnigmaticCore.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79AC49501FD83B7900ABDFB7 /* Source */ = {
+		79AC49501FD83B7900ABDFB7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				79AC49521FD83B7900ABDFB7 /* Info.plist */,
@@ -139,7 +188,7 @@
 				799DD7801FDE97DC00CE4A2A /* Enigma */,
 				799DD7811FDE97F300CE4A2A /* Operations */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		79AC495B1FD83B7900ABDFB7 /* EnigmaticCoreTests */ = {
@@ -159,6 +208,22 @@
 				79AC496C1FD83BEB00ABDFB7 /* EnigmaticCore.xcconfig */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		79DBF2331FFD45CB0002B1F3 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				79DBF2151FFD226A0002B1F3 /* Enigma.macOS.swift */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		79DBF2341FFD45D10002B1F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				79DBF2171FFD22800002B1F3 /* Enigma.iOS.swift */,
+			);
+			path = iOS;
 			sourceTree = "<group>";
 		};
 		79E3C9921FDEA16400DF5091 /* EnigmaTransformOperation */ = {
@@ -191,12 +256,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		79DBF22A1FFD23D80002B1F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DBF22B1FFD23D80002B1F3 /* EnigmaticCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		79AC494D1FD83B7900ABDFB7 /* EnigmaticCore */ = {
+		79AC494D1FD83B7900ABDFB7 /* EnigmaticCore_macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79AC49621FD83B7900ABDFB7 /* Build configuration list for PBXNativeTarget "EnigmaticCore" */;
+			buildConfigurationList = 79AC49621FD83B7900ABDFB7 /* Build configuration list for PBXNativeTarget "EnigmaticCore_macOS" */;
 			buildPhases = (
 				79AC49491FD83B7900ABDFB7 /* Sources */,
 				79AC494A1FD83B7900ABDFB7 /* Frameworks */,
@@ -208,7 +281,7 @@
 			);
 			dependencies = (
 			);
-			name = EnigmaticCore;
+			name = EnigmaticCore_macOS;
 			productName = Enigma;
 			productReference = 79AC494E1FD83B7900ABDFB7 /* EnigmaticCore.framework */;
 			productType = "com.apple.product-type.framework";
@@ -231,6 +304,25 @@
 			productReference = 79AC49571FD83B7900ABDFB7 /* EnigmaticCoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		79DBF2191FFD23D80002B1F3 /* EnigmaticCore_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79DBF22E1FFD23D80002B1F3 /* Build configuration list for PBXNativeTarget "EnigmaticCore_iOS" */;
+			buildPhases = (
+				79DBF21A1FFD23D80002B1F3 /* Sources */,
+				79DBF2291FFD23D80002B1F3 /* Frameworks */,
+				79DBF22A1FFD23D80002B1F3 /* Headers */,
+				79DBF22C1FFD23D80002B1F3 /* Resources */,
+				79DBF22D1FFD23D80002B1F3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnigmaticCore_iOS;
+			productName = Enigma;
+			productReference = 79DBF2311FFD23D80002B1F3 /* EnigmaticCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -250,6 +342,9 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Manual;
 					};
+					79DBF2191FFD23D80002B1F3 = {
+						ProvisioningStyle = Manual;
+					};
 				};
 			};
 			buildConfigurationList = 79AC49481FD83B7900ABDFB7 /* Build configuration list for PBXProject "EnigmaticCore" */;
@@ -265,7 +360,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79AC494D1FD83B7900ABDFB7 /* EnigmaticCore */,
+				79AC494D1FD83B7900ABDFB7 /* EnigmaticCore_macOS */,
+				79DBF2191FFD23D80002B1F3 /* EnigmaticCore_iOS */,
 				79AC49561FD83B7900ABDFB7 /* EnigmaticCoreTests */,
 			);
 		};
@@ -286,6 +382,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		79DBF22C1FFD23D80002B1F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -293,18 +396,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D9F89B1FDD6DB600B7024D /* Enigma.ConfigurationKey.swift in Sources */,
+				79DBF2161FFD226A0002B1F3 /* Enigma.macOS.swift in Sources */,
 				7959F6EB1FDBA18100A83EA8 /* KeychainError.swift in Sources */,
 				799DD7851FDE99DC00CE4A2A /* EnigmaTransformOperation.swift in Sources */,
 				799563D91FDA30730060E474 /* Enigma.swift in Sources */,
 				799563DD1FDA31320060E474 /* Enigma.Transform.swift in Sources */,
-				79CFF6251FDD497000E1F8F8 /* Enigma.InitializationVector.swift in Sources */,
 				799DD7831FDE982300CE4A2A /* EnigmaDataTransformOperation.swift in Sources */,
-				79CFF6231FDD47FA00E1F8F8 /* Enigma.Salt.swift in Sources */,
 				795345A11FD997C300875AD9 /* EnigmaError.swift in Sources */,
+				79DBF2381FFD46290002B1F3 /* Enigma.InitializationVector.swift in Sources */,
 				79F846F71FDEABE80012C2DA /* EnigmaKeychainSavePasswordOperation.swift in Sources */,
 				79E3C9951FDEA18200DF5091 /* EnigmaKeychainPasswordOperation.swift in Sources */,
 				79E3C9971FDEA44E00DF5091 /* EnigmaKeychainMatchPasswordOperation.swift in Sources */,
+				79DBF23C1FFD46290002B1F3 /* Enigma.ConfigurationKey.swift in Sources */,
+				79DBF23A1FFD46290002B1F3 /* Enigma.Salt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,12 +420,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		79DBF21A1FFD23D80002B1F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DBF21D1FFD23D80002B1F3 /* KeychainError.swift in Sources */,
+				79DBF21E1FFD23D80002B1F3 /* EnigmaTransformOperation.swift in Sources */,
+				79DBF21F1FFD23D80002B1F3 /* Enigma.swift in Sources */,
+				79DBF2201FFD23D80002B1F3 /* Enigma.Transform.swift in Sources */,
+				79DBF2221FFD23D80002B1F3 /* EnigmaDataTransformOperation.swift in Sources */,
+				79DBF2241FFD23D80002B1F3 /* EnigmaError.swift in Sources */,
+				79DBF2251FFD23D80002B1F3 /* EnigmaKeychainSavePasswordOperation.swift in Sources */,
+				79DBF2391FFD46290002B1F3 /* Enigma.InitializationVector.swift in Sources */,
+				79DBF2261FFD23D80002B1F3 /* Enigma.iOS.swift in Sources */,
+				79DBF2271FFD23D80002B1F3 /* EnigmaKeychainPasswordOperation.swift in Sources */,
+				79DBF2281FFD23D80002B1F3 /* EnigmaKeychainMatchPasswordOperation.swift in Sources */,
+				79DBF23D1FFD46290002B1F3 /* Enigma.ConfigurationKey.swift in Sources */,
+				79DBF23B1FFD46290002B1F3 /* Enigma.Salt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		79AC495A1FD83B7900ABDFB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 79AC494D1FD83B7900ABDFB7 /* EnigmaticCore */;
+			target = 79AC494D1FD83B7900ABDFB7 /* EnigmaticCore_macOS */;
 			targetProxy = 79AC49591FD83B7900ABDFB7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -375,6 +499,22 @@
 			};
 			name = Release;
 		};
+		79DBF22F1FFD23D80002B1F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AC496C1FD83BEB00ABDFB7 /* EnigmaticCore.xcconfig */;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Debug;
+		};
+		79DBF2301FFD23D80002B1F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AC496C1FD83BEB00ABDFB7 /* EnigmaticCore.xcconfig */;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -387,7 +527,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79AC49621FD83B7900ABDFB7 /* Build configuration list for PBXNativeTarget "EnigmaticCore" */ = {
+		79AC49621FD83B7900ABDFB7 /* Build configuration list for PBXNativeTarget "EnigmaticCore_macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79AC49631FD83B7900ABDFB7 /* Debug */,
@@ -401,6 +541,15 @@
 			buildConfigurations = (
 				79AC49661FD83B7900ABDFB7 /* Debug */,
 				79AC49671FD83B7900ABDFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79DBF22E1FFD23D80002B1F3 /* Build configuration list for PBXNativeTarget "EnigmaticCore_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DBF22F1FFD23D80002B1F3 /* Debug */,
+				79DBF2301FFD23D80002B1F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
